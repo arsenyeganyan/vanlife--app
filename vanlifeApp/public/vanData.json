@@ -1,0 +1,41 @@
+{
+    "passed": "yes",
+    "data": [
+        {
+            "name": "Modest Explorer",
+            "price": 60,
+            "url": "/images/vans/Rectangle 154.png",
+            "type": "Simple"
+        },
+        {
+            "name": "Beach Bum",
+            "price": 80,
+            "url": "/images/vans/Rectangle 154(1).png",
+            "type": "Rugged"
+        },
+        {
+            "name": "Reliable Red",
+            "price": 100,
+            "url": "/images/vans/alpert-wang-rxQL0ieF_Bs-unsplash 1.png",
+            "type": "Luxury"
+        },
+        {
+            "name": "Dreamfinder",
+            "price": 65,
+            "url": "/images/vans/Rectangle 154(2).png",
+            "type": "Simple"
+        },
+        {
+            "name": "The Cruiser",
+            "price": 120,
+            "url": "/images/vans/Rectangle 154(3).png",
+            "type": "Luxury"
+        },
+        {
+            "name": "Green Wonder",
+            "price": 70,
+            "url": "/images/vans/Rectangle 155.png",
+            "type": "Rugged"
+        }
+    ]
+}

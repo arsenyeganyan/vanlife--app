@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Vans Page */
+
+.vans{
+    position: relative;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.vans--desc{
+    padding: 0 200px 0 200px;
+}
+
+.vans--title{
+    font-size: 50px;
+}
+
+.settings{
+    margin-top: 70px;
+}
+
+.simple, .luxury, .rugged, .clear{
+    display: inline-block;
+}
+
+.simple, .luxury, .rugged{
+    background-color: #ffdfb8;
+    font-size: 25px;
+    border: none;
+    padding: 7px 25px 7px 25px;
+    margin-right: 30px;
+    border-radius: 8px;
+    display: flex;
+    float: left;
+}
+
+.simple:hover, .luxury:hover, .rugged:hover{
+    background-color: #ffd39d;
+    cursor: pointer;
+}
+.simple:active, .luxury:active, .rugged:active{
+    background-color: #fbc380;
+    cursor: grabbing;
+}
+
+.clear{
+    display: flex;
+    float: right;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.clear:hover{
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+.clear:active{
+    color: rgb(68, 68, 68);
+    cursor: grabbing;
+}
+
+.loading{
+    text-align: center;
+}
+
+.show{
+    margin: 180px 100px 60px 100px;
+}
+
+.show--vans{
+    margin: 70px 0 0 30px;
+    display: inline-block;
+}
+
+.van--name, .van--price{
+    display: inline-block;
+}
+
+.van--img{
+    width: 220px;
+}
+
+.van--name{
+    display: flex;
+    float: left;
+    font-size: 20px;
+}
+
+.van--price{
+    display: flex;
+    float: right;
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.van--type{
+    display: flex;
+    float: left;
+    font-size: 22px;
+    background-color: rgb(164, 164, 164);
+    padding: 5px;
+    border-radius: 8px;
+}

@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 244, 225);
+}
+
+/* About Page */
+
+.about{
+    position: relative;
+    margin-top: 112px;
+    text-align: center;
+}
+
+.about--img{
+    width: 30%;
+    height: auto;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.about--title{
+    margin-top: 70px;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about--desc{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.about--add{
+    margin: 100px 300px 300px 300px;
+    padding: 80px 50px 100px 50px;
+    background-color: #FFCC8D;
+    border-radius: 40px;
+}
+
+.add--title{
+    font-size: 45px;
+}
+
+.add--button{
+    margin-top: 30px;
+    font-size: 25px;
+    /* width: auto;
+    height: auto; */
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.add--button:hover{
+    cursor: pointer;
+    background-color: rgb(55, 55, 55);
+    transition: all 0.3s;
+}
+
+.add--button:active{
+    cursor: grabbing;
+    background-color: rgb(77, 77, 77);
+    transition: all 0.2s;
+}
