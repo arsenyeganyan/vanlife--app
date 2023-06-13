@@ -39,7 +39,7 @@ function Vans(props){
                         <button 
                             className="luxury"
                             onClick={filterLuxury}>
-                                    Luxury
+                                Luxury
                         </button>
                         <button 
                             className="rugged"
@@ -61,7 +61,7 @@ function Vans(props){
                                 <h4 className="van--name">{van.name}</h4>
                                 <h6 className="van--price">${van.price}/day</h6>
                             </div>
-                            <h6 className="van--type">{van.type}</h6>
+                            <h6 className={van.type}>{van.type}</h6>
                         </div>
                     ))}
                 </div>

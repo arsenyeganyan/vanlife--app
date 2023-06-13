@@ -41,6 +41,7 @@ body{
 .simple:hover, .luxury:hover, .rugged:hover{
     background-color: #ffd39d;
     cursor: pointer;
+    transition: all 0.3s;
 }
 .simple:active, .luxury:active, .rugged:active{
     background-color: #fbc380;
@@ -57,6 +58,7 @@ body{
 .clear:hover{
     color: rgb(71, 71, 71);
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .clear:active{
@@ -98,11 +100,23 @@ body{
     line-height: 8px;
 }
 
-.van--type{
+.Rugged, .Luxury, .Simple{
     display: flex;
     float: left;
     font-size: 22px;
-    background-color: rgb(164, 164, 164);
-    padding: 5px;
-    border-radius: 8px;
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+}
+
+.Simple{
+    background-color: #E17654;
+}
+
+.Luxury{
+    background-color: black;
+}
+
+.Rugged{
+    background-color: #115E59;
 }
