@@ -1,0 +1,159 @@
+/* Host Navbar */
+
+.host{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.host .nav--item{
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+.host .nav--item--active{
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+/* Vans Host */
+
+.van--host--container{
+    margin: 60px 450px 100px 450px;
+}
+
+.host--title{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.individual--host--van{
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    padding: 80px;
+    color: black;
+}
+
+.host--img{
+    width: 150px;
+    display: flex;
+    float: left;
+    border-radius: 10px;
+}
+
+.host--desc{
+    margin-left: 40px;
+    display: block;
+    float: left;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.host--name{
+    font-size: 30px;
+}
+
+.host--price{
+    font-size: 20px;
+}
+
+/* Van Host Detail Page */
+
+.van--ui{
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+
+.van-detail--container{
+    margin: 80px 450px 60px 450px;
+    border-radius: 10px;
+}
+
+.back--icon{
+    margin-right: 10px;
+}
+
+.back--button{
+    display: flex;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.van--detail{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.host--detail--img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.host--detail--desc{
+    margin-left: 40px;
+    line-height: 55px;
+}
+
+.host--detail--simple, .host--detail--rugged, .host--detail--luxury{
+    color: white;
+    border-radius: 8px;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-transform: capitalize;
+}
+
+.host--detail--simple{
+    background-color: #E17654;
+}
+
+.host--detail--rugged{
+    background-color: #115E59;
+}
+
+.host--detail--luxury{
+    background-color: black;
+}
+
+.host--detail--name{
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+.host--detail--price{
+    font-size: 25px;
+    float: left;
+}
+
+.host--detail--nav{
+    display: flex;
+    float: left;
+}
+
+/* Host Details Info Page */
+
+.details--info{
+    margin-top: 140px;
+    display: block;
+    text-align: left;
+}
+
+/* Host Details Photos & Pricing Pages */
+
+.details--photos, .details--pricing{
+    margin-top: 140px;
+    text-align: left;
+}
+
+.details--photo{
+    width: 200px;
+    border-radius: 10px;
+}

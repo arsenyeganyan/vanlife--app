@@ -27,7 +27,7 @@ body{
     display: inline-block;
 }
 
-.simple, .luxury, .rugged{
+.simpleButton, .luxuryButton, .ruggedButton{
     background-color: #ffdfb8;
     font-size: 25px;
     border: none;
@@ -38,12 +38,12 @@ body{
     float: left;
 }
 
-.simple:hover, .luxury:hover, .rugged:hover{
+.simpleButton:hover, .luxuryButton:hover, .ruggedButton:hover{
     background-color: #ffd39d;
     cursor: pointer;
     transition: all 0.3s;
 }
-.simple:active, .luxury:active, .rugged:active{
+.simpleButton:active, .luxuryButton:active, .ruggedButton:active{
     background-color: #fbc380;
     cursor: grabbing;
 }
@@ -68,6 +68,7 @@ body{
 
 .loading{
     text-align: center;
+    margin-top: 300px;
 }
 
 .show{
@@ -91,6 +92,7 @@ body{
     display: flex;
     float: left;
     font-size: 20px;
+    color: black;
 }
 
 .van--price{
@@ -98,9 +100,10 @@ body{
     float: right;
     font-size: 15px;
     line-height: 8px;
+    color: black;
 }
 
-.Rugged, .Luxury, .Simple{
+.rugged, .luxury, .simple{
     display: flex;
     float: left;
     font-size: 22px;
@@ -109,14 +112,89 @@ body{
     color: white;
 }
 
-.Simple{
+.simple{
     background-color: #E17654;
 }
 
-.Luxury{
+.luxury{
     background-color: black;
 }
 
-.Rugged{
+.rugged{
     background-color: #115E59;
+}
+
+/* Van Details */
+
+.van-detail-container {
+    margin: 70px 300px 100px 300px;
+    padding: 27px;
+
+}
+
+.van-detail-container {
+    color: black;
+    text-decoration: none;
+}
+
+.van-detail-container .back-button span {
+    text-decoration: underline;
+}
+
+.van-detail {
+    display: flex;
+    flex-direction: column;
+    color: #161616;
+}
+
+.van-detail img {
+    border-radius: 5px;
+    margin-block: 47px;
+    width: 320px;
+}
+
+.van-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.van-detail > i {
+    align-self: flex-start;
+}
+
+.van-detail .van-price {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.van-detail .van-price span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.van--desc{
+    font-size: 20px;
+}
+
+.van-detail .link-button {
+    background-color: #FF8C38;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.link-button{
+    width: 200px;
+    border: none;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.link-button:hover{
+    background-color: #e77423;
+    transition: all 0.2s;
+}
+
+.link-button:active{
+    background-color: #c55e15;
 }

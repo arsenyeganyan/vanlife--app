@@ -5,7 +5,7 @@ body{
 
 /* Navbar */
 
-nav{
+.nav{
     position: fixed;
     width: 100%;
     top: 0;
@@ -30,9 +30,10 @@ nav{
 .nav--options{
     display: flex;
     float: right;
+    line-height: 90px;
 }
 
-li{
+.nav--item{
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -41,14 +42,19 @@ li{
     vertical-align: middle;
 }
 
-li:hover{
+.nav--item:hover{
     color: rgb(213, 157, 14);
     transition: all 0.2s;
 }
 
-li:active{
+.nav--item--active{
+    display: inline-block;
+    text-decoration: none;
     color: rgb(166, 122, 11);
     cursor: grabbing;
+    margin-right: 35px;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 /* Footer */
