@@ -5,6 +5,10 @@ body{
 
 /* Vans Page */
 
+.loading{
+    font-size: 30px;
+}
+
 .vans{
     position: relative;
     margin-top: 140px;
@@ -20,14 +24,15 @@ body{
 }
 
 .settings{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .simple, .luxury, .rugged, .clear{
     display: inline-block;
 }
 
-.simpleButton, .luxuryButton, .ruggedButton{
+.simpleButton, .luxuryButton, .ruggedButton, 
+.simpleButtonActive, .ruggedButtonActive, .luxuryButtonActive{
     background-color: #ffdfb8;
     font-size: 25px;
     border: none;
@@ -38,14 +43,16 @@ body{
     float: left;
 }
 
+.simpleButton:active, .luxuryButton:active, .ruggedButton:active,
+.simpleButtonActive, .ruggedButtonActive, .luxuryButtonActive{
+    background-color: #fbc380;
+    cursor: grabbing;
+}
+
 .simpleButton:hover, .luxuryButton:hover, .ruggedButton:hover{
     background-color: #ffd39d;
     cursor: pointer;
     transition: all 0.3s;
-}
-.simpleButton:active, .luxuryButton:active, .ruggedButton:active{
-    background-color: #fbc380;
-    cursor: grabbing;
 }
 
 .clear{
@@ -72,7 +79,7 @@ body{
 }
 
 .show{
-    margin: 180px 100px 60px 100px;
+    margin: 120px 100px 60px 100px;
 }
 
 .show--vans{
@@ -86,6 +93,7 @@ body{
 
 .van--img{
     width: 220px;
+    border-radius: 8px;
 }
 
 .van--name{
@@ -112,6 +120,10 @@ body{
     color: white;
 }
 
+.clear{
+    color: black;
+}
+
 .simple{
     background-color: #E17654;
 }
@@ -127,12 +139,8 @@ body{
 /* Van Details */
 
 .van-detail-container {
-    margin: 70px 300px 100px 300px;
+    margin: 120px 300px 100px 300px;
     padding: 27px;
-
-}
-
-.van-detail-container {
     color: black;
     text-decoration: none;
 }
@@ -197,4 +205,9 @@ body{
 
 .link-button:active{
     background-color: #c55e15;
+}
+
+.error--message{
+    margin-top: 200px;
+    text-align: center;
 }

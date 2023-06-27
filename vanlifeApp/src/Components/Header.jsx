@@ -1,6 +1,8 @@
 import React from "react";
 import "../Styles/default.css";
 import { Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 function Header(){
 
@@ -25,6 +27,11 @@ function Header(){
                         to="/vans" 
                         className={({isActive}) => isActive ? "nav--item--active" : "nav--item"}>
                         Vans
+                    </NavLink>
+                    <NavLink 
+                        to="/login" 
+                        className={({isActive}) => isActive ? "nav--item--active" : "nav--item"}>
+                        <FontAwesomeIcon icon={faRightToBracket} />
                     </NavLink>
                 </div>
             </nav>

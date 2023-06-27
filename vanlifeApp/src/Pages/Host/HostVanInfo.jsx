@@ -7,7 +7,7 @@ function HostVanInfo(){
 
     return(
         <section className="details--info">
-            <h3>Name: <span className="spo">{details.name}</span></h3>
+            <h3>Name: <span>{details.name}</span></h3>
             <h3>Category: <span>{details.type}</span></h3>
             <h3>Description: <span>{details.description}</span></h3>
             <h3>Visibility: <span>public</span></h3>

@@ -70,3 +70,35 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+/* Error Page */
+
+.error--page{
+    margin-top: 400px;
+    text-align: center;
+}
+
+.error--title{
+    font-size: 45px;
+}
+
+.error--button{
+    margin-top: 40px;
+    font-size: 2rem;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.error--button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+    transition: all 0.3s;
+}
+
+.error--button:active{
+    cursor: grabbing;
+    background-color: rgb(75, 75, 75);
+}
