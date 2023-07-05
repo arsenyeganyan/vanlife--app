@@ -3,16 +3,17 @@ import { useLoaderData } from "react-router-dom";
 import "/Users/arsen/Desktop/projects/vanlife--app/vanlifeApp/src/Styles/host.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { getHostVans } from "../../api";
+import { getVan } from "../../api";
 import { requireAuth } from "../../utils";
 
-export async function loader({ params }){
-    await requireAuth();
-    return getHostVans(params.id);
+export async function loader({ params, request }){
+    await requireAuth(request);
+    return getVan(params.id);
 }
 
 function VanHostDetails(){
     const van = useLoaderData();
+    console.log(van);
     const details = van[0];
     return(
         <div>
@@ -33,7 +34,7 @@ function VanHostDetails(){
                         </div>
                     </div>
                     <nav className="host--detail--nav">
-                        <NavLink 
+                        <NavLink
                             to="."
                             end
                             className={({isActive}) => isActive ? "nav--item--active" : "nav--item"}
@@ -56,7 +57,6 @@ function VanHostDetails(){
                     <Outlet context={{details}}/>
                 </div>
             </div>
-            
         </div>
     )
 }

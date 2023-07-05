@@ -8,7 +8,7 @@ function Header(){
 
     return(
         <div className="container">
-            <nav className="nav">
+            <header className="nav">
                 <Link to="/">
                     <h2 className="nav--title">#VANLIFE</h2>
                 </Link>
@@ -34,7 +34,7 @@ function Header(){
                         <FontAwesomeIcon icon={faRightToBracket} />
                     </NavLink>
                 </div>
-            </nav>
+            </header>
         </div>
     )
 }
